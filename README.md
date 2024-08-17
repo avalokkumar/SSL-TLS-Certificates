@@ -4,6 +4,8 @@
 ## Basics to advanced topics:
 
 ### **1. Introduction to SSL/TLS**
+<img width="255" alt="image" src="https://github.com/user-attachments/assets/75b919f9-0143-421d-8a67-e2080bb55056">
+
    - What is SSL (Secure Sockets Layer)?
    - What is TLS (Transport Layer Security)?
    - Evolution from SSL to TLS
