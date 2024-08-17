@@ -3,7 +3,10 @@
 1. **Generate SSL Certificates**: First, you need to generate a self-signed SSL certificate for testing purposes. You can do this using the `openssl` command:
 
    ```bash
-   openssl req -x509 -newkey rsa:4096 -keyout server.key -out server.crt -days 365 -nodes
+   openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+    -keyout server.key \
+    -out server.crt \
+    -subj "/CN=localhost"
    ```
 
    This command will generate a `server.crt` (certificate) and `server.key` (private key) file.
