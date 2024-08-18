@@ -6,7 +6,7 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Wrap the socket with SSL/TLS
 context = ssl.create_default_context(ssl.Purpose.SERVER_AUTH)
-context.load_verify_locations('/Users/alok.vishwakarma1/personal/workspace/SSL-TLS-Certificates/Intro_to_SSL&TLS/SSL_TLS_Encryption/server.crt')  # Load server certificate
+context.load_verify_locations('server.crt')  # Load server certificate
 
 with context.wrap_socket(client_socket, server_hostname='localhost') as secure_socket:
     secure_socket.connect(('localhost', 8443))
