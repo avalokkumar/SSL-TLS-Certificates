@@ -131,11 +131,6 @@ The evolution of TLS (Transport Layer Security) from SSL (Secure Sockets Layer) 
      - **Zero-Round-Trip Time (0-RTT) Mode**: TLS 1.3 introduced 0-RTT mode for faster session resumption, though with some trade-offs in security that need to be carefully managed.
      - **Example**: Modern web services like Google and Facebook implemented TLS 1.3 to enhance user experience with faster and more secure connections, reducing page load times while protecting user data with the latest encryption standards.
 
-### **Summary of Evolution:**
-- **SSL to TLS Transition**: The transition from SSL to TLS was driven by the need to address vulnerabilities and strengthen security. Each iteration of TLS brought improvements in encryption, authentication, and overall protocol efficiency.
-- **Adoption in Real-World Scenarios**: Major websites and services gradually adopted each new version of TLS to protect users’ data better. For example, as vulnerabilities like POODLE and BEAST were discovered, websites moved from SSL 3.0 and TLS 1.0 to newer versions to mitigate these risks.
-- **Deprecation of Older Versions**: As new versions of TLS were released, older versions (SSL 2.0, SSL 3.0, TLS 1.0, and TLS 1.1) were deprecated due to their security weaknesses, and modern browsers and servers began to require TLS 1.2 or higher for secure communication.
-
 ---
 
 ## Importance of SSL/TLS in securing web communication
