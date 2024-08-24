@@ -12,7 +12,7 @@
    - Importance of SSL/TLS in securing web communication
    - Overview of how SSL/TLS works
 
-### **2. Cryptography Fundamentals**
+### **2. [Cryptography Fundamentals](https://github.com/avalokkumar/SSL-TLS-Certificates/blob/main/Cryptography_Fundamentals/Readme.md)**
    - Basic cryptography concepts (Encryption, Decryption, Keys)
    - Symmetric vs. Asymmetric Encryption
    - Public Key Infrastructure (PKI)
